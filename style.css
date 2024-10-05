@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B1D22;
+    box-shadow: 0 4px 15px #1B1D22;
+}
+
+.image-container img {
+    width: 500px;
+    height: 550px;
+    border-radius: 12px;
+}
+
+.login-container {
+    color: white;
+    width: 480px;
+    margin-left: 10px;
+    padding: 50px;
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-box {
+    background-color: #121317;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.getAccount {
+    color: #B9B9B9;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.google-button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.terms {
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #B9B9B9;
+}
+
+.terms a {
+    color: #025EFC;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
